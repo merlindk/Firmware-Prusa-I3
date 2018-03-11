@@ -40,8 +40,6 @@
 #define DEFAULT_SOURCE_CODE_URL "https://github.com/Ultimaker/Marlin"
 #define BOARD_NAME              "Ultimaker"
 
-#define LARGE_FLASH true
-
 //
 // Servos
 //
@@ -51,7 +49,7 @@
 // Limit Switches
 //
 #define X_MIN_PIN          22
-//#define X_MAX_PIN          24
+#define X_MAX_PIN          24
 #define Y_MIN_PIN          26
 #define Y_MAX_PIN          28
 #define Z_MIN_PIN          30
@@ -83,7 +81,6 @@
 #define E0_DIR_PIN         45
 #define E0_ENABLE_PIN      41
 
-
 #define E1_STEP_PIN        49
 #define E1_DIR_PIN         47
 #define E1_ENABLE_PIN      48
@@ -94,16 +91,15 @@
 #define TEMP_0_PIN          8   // Analog Input
 #define TEMP_1_PIN          9   // Analog Input
 #define TEMP_BED_PIN       10   // Analog Input
-#define MAX6675_SS 			24
 
 //
 // Heaters / Fans
-// Disabled second extruder heater
+//
 #define HEATER_0_PIN        2
-#define HEATER_1_PIN        7	//Switch with FAN_PIN
+#define HEATER_1_PIN        3
 #define HEATER_BED_PIN      4
 
-#define FAN_PIN             3	//Switch with HEATER_1_PIN
+#define FAN_PIN             7
 
 //
 // Misc. Functions
