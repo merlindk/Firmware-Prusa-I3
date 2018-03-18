@@ -36,7 +36,7 @@
   #error "Oops!  Make sure you have 'Arduino Mega' selected from the 'Tools -> Boards' menu."
 #endif
 
-#define DEFAULT_MACHINE_NAME    "Ultimaker"
+#define DEFAULT_MACHINE_NAME    "Prusa Merlin"
 #define DEFAULT_SOURCE_CODE_URL "https://github.com/Ultimaker/Marlin"
 #define BOARD_NAME              "Ultimaker"
 
