@@ -70,10 +70,12 @@
 #define X_STEP_PIN         25
 #define X_DIR_PIN          23
 #define X_ENABLE_PIN       27
+//#define X_CS_PIN           28
 
 #define Y_STEP_PIN         31
 #define Y_DIR_PIN          33
 #define Y_ENABLE_PIN       29
+//#define Y_CS_PIN           28
 
 #define Z_STEP_PIN         37
 #define Z_DIR_PIN          39
